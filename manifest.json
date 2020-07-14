@@ -1,0 +1,11 @@
+{
+"name": "Chrome Spider Client",
+"version": "0.1",
+"description": "Send everything you look at in Chrome to a spider/search server",
+"permissions": ["pageCapture","webRequest","browsingData","activeTab","geolocation","tabs","<all_urls>"],
+"background": {
+"scripts": ["background.js"],
+"persistent": true
+},
+"manifest_version": 2
+}
